@@ -70,7 +70,7 @@ $(".open-menu").click(function(){
 	$(".dark-overlay").fadeIn();
 	$(".fix-nav").animate({
 		height: "150px",
-		backgroundColor: "#fff",
+		backgroundColor: "#353535",
 		opacity: 1
 		}, 250, function(){
 			$(".fade-links").fadeIn();
@@ -90,7 +90,7 @@ $(".close-menu, .in-nav-link, .nav-logo, .dark-overlay, #arrow-down, #arrow-up")
 			},200)
 	$(".fix-nav").animate({
 			height: "70px",
-			backgroundColor: "#fff",
+			backgroundColor: "#353535",
 			opacity: 1
 		}, 250, function(){
 				$(".brand-name, .fade-bar").fadeIn();
