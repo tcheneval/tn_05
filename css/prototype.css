@@ -92,14 +92,14 @@ p {
 	line-height: 30px;
 	position: relative;
 	color: #353535;
-	font-family: sans-serif;
+	font-family: verdana;
 }
 
 p.intro-text {
 	font-size: 24px;
 	line-height: 40px;
 	margin-bottom: 40px;
-	color:#b4b153;
+	color:#c4c4c4;
 	font-family: serif;
 	font-weight: lighter;
 }
@@ -317,7 +317,7 @@ p.intro-text {
 }
 
 .nav-links a {
-	color: #b4b153;
+	color: #559fff;
 	font-size: 14px;
 	text-decoration: none;
 	cursor: pointer;
@@ -537,7 +537,7 @@ p.intro-text {
 
 .work-container {
 	height: 1200px;
-	background-color: #353535;
+	background-color: #fff;
 	/* padding: 20px 0; */	
 }
 
@@ -609,13 +609,13 @@ p.intro-text {
 
 .work-item.s2 .work-label:hover {
 	opacity: 1;
-	color: #b4b153;
+	color: #559fff;
 	background-color: rgba(10,10,10,0.8);
 }
 
 .work-item.s1 .work-label:hover {
 	opacity: 1;
-	color: #b4b153;
+	color: #559fff;
 	background-color: rgba(10,10,10,0.8);
 }
 
