@@ -75,9 +75,7 @@ $(".open-menu").click(function(){
 			$(".fade-links").fadeIn();
 	});
 	$(".nav-logo img").animate({
-				height: 70,
-				width: 70,
-				marginTop: 25
+				marginTop: 35
 			}, 300);
 	return;
 });
@@ -87,8 +85,6 @@ $(".close-menu, .in-nav-link, .nav-logo, .dark-overlay, #arrow-down, #arrow-up")
 	$(".menu-ico, .menu-label").removeClass("close-menu");
 	$(".menu-ico, .menu-label").addClass("open-menu");
 	$(".nav-logo img").animate({
-				height: 35,
-				width: 35,
 				marginTop: 0
 			},200)
 	$(".fix-nav").animate({
