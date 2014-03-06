@@ -2,6 +2,7 @@ window.onload = function(){
 	$(".container-2").fadeIn(1000);
 }
 
+
 $(function() {
    $("img.lazy").lazyload({
     	effect : "fadeIn",
